@@ -2,74 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon's Clone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <!--  Website Header/Navigation-bar  -->
 
-<header>
-
-    <div class="navbar">
-
-        <!-- 1) Navlogo   -->
-        <div class="navlogo border">
-            <div id="logo"> </div>
-        </div>
-
-
-        <!-- 2) Navlocation -->
-        <div class="navlocation border">
-            <div id="location">
-
-            <p id="ut"> Deliver to </p>
-
-            <div id="lti">
-            <i class="fa-solid fa-location-dot"></i>
-            <p id="lt"> Pakistan </p>
+    <header>
+        <div class="navbar">
+            <!-- 1) Navlogo   -->
+            <div class="navlogo border">
+                <div id="logo"></div>
             </div>
-             <!-- (ut=upper text) (llt=lower text) (lti=lowertext inline)  -->
+
+            <!-- 2) Navlocation -->
+            <div class="navlocation border">
+                <div id="location">
+                    <p id="ut">Deliver to</p>
+
+                    <div id="lti">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="lt">Pakistan</p>
+                    </div>
+                    <!-- (ut=upper text) (llt=lower text) (lti=lowertext inline)  -->
+                </div>
             </div>
+
+            <!-- 3) NavSearch  -->
+
+            <div class="navsearch">
+                <select id="selecttag">
+                    <option value="artsCraft">Arts and Craft</option>
+                    <option value="automotive">Automotive</option>
+                    <option value="babyPersonalCare">Baby and Personal Care</option>
+                    <option value="books">Books</option>
+                    <option value="boysFashion">Boys Fashion</option>
+                    <option value="computers">Computers</option>
+                    <option value="deals">Deals</option>
+                    <option value="digitalMusic">Digital Music</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="girlsFashion">Girls Fashion</option>
+                </select>
+
+                <input id="inputtag" placeholder="  Search Amazon" />
+                <button id="buttontag">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <!-- 4) Navlanguage -->
+
+            <div class="navlang">
+                <div id="navlangflag"> </div>
+                <div id="navlantext"> EN </div>
+            </div>
+
+
+
+
         </div>
-    
-          <!-- 3) NavSearch Styling  -->
-        
-        <div class="navsearch">
-
-     <select id="selecttag" >
-        <option value="artsCraft">Arts and Craft</option>
-        <option value="automotive">Automotive</option>
-        <option value="babyPersonalCare">Baby and Personal Care</option>
-        <option value="books">Books</option>
-        <option value="boysFashion">Boys Fashion</option>
-        <option value="computers">Computers</option>
-        <option value="deals">Deals</option>
-        <option value="digitalMusic">Digital Music</option>
-        <option value="electronics">Electronics</option>
-        <option value="girlsFashion">Girls Fashion</option>>
-     </select>
-
-     <input id="inputtag" placeholder="  Search Amazon">
-     <button id="buttontag"> <i class="fa-solid fa-magnifying-glass"></i> </button>
-
-        </div>
-
-
-    </div>
-
-
- </header>
-
-
-
-
-
+    </header>
 </body>
 
 </html>

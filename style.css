@@ -125,3 +125,30 @@ display: flex;
     border-bottom-right-radius: 5px;
 }
 
+/* 3) Navlanguage Styling */
+
+.navlang
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    width: 75px;
+    height: 50px;
+    font-size: 14px;
+}
+
+#navlangflag
+{
+    width: 22px;
+    height: 17px;
+    background-image: url(flag.png);
+    background-size: cover;
+}
+
+#navlantext
+{
+    margin-left: 4px;
+}
+
+
