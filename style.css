@@ -172,3 +172,25 @@ display: flex;
 {
     font-size: 14px;
 }
+
+/* 5)Navreturn and orders styling */
+
+.navrao
+{
+width: 77px;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+#rao-uppertext
+{
+    font-size: 12px;
+}
+
+#rao-lowertext
+{
+    font-size: 14px;
+}
