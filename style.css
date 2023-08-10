@@ -15,6 +15,7 @@
 .navbar
 {
     display: flex;
+    justify-content: space-evenly;
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -125,7 +126,7 @@ display: flex;
     border-bottom-right-radius: 5px;
 }
 
-/* 3) Navlanguage Styling */
+/* 4) Navlanguage Styling */
 
 .navlang
 {
@@ -173,7 +174,7 @@ display: flex;
     font-size: 14px;
 }
 
-/* 5)Navreturn and orders styling */
+/* 6)Navreturn and orders styling */
 
 .navrao
 {
@@ -193,4 +194,26 @@ align-items: flex-start;
 #rao-lowertext
 {
     font-size: 14px;
+}
+
+/* 7)NavCart */
+
+.navcart
+{
+    height:50px;
+    width:85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carticon
+{
+font-size: 25px;
+}
+
+#carttext
+{
+    font-size: 14px;
+    margin-left: 2px;
 }
