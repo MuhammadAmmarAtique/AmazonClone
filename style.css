@@ -1,0 +1,48 @@
+/* Universal Styling (For whole HTML) */
+
+*
+{
+   margin:0px;
+   font-family: Arial;    /* Closest to Amazon's own font */
+   box-sizing: border-box;
+
+}
+
+/* Navbar Styling */
+
+
+.navbar
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+/* 1) Navlogo Styling */
+
+.navlogo
+{
+    width: 100px;
+    height: 50px;
+}
+
+.logo
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+
+/*If we dont want our "logo" to move then we will first make a transperent border */
+
+.border
+{                                          
+    border: 1.5px solid transparent;      
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+}
+
