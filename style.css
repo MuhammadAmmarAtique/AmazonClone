@@ -132,7 +132,6 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7px;
     width: 75px;
     height: 50px;
     font-size: 14px;
@@ -151,4 +150,25 @@ display: flex;
     margin-left: 4px;
 }
 
+/* 5)Navsignin styling */
 
+.navsignin
+{
+ display: flex;   
+ flex-direction: column;
+ justify-content:center;
+ align-items: flex-start;
+ width:135px;
+ height:50px;
+ /* margin-top: 8.5px; */
+}
+
+#signin-uppertext
+{
+    font-size: 12px;
+}
+
+#signin-lowertext
+{
+    font-size: 14px;
+}
