@@ -14,38 +14,57 @@
 <body>
     <!--  Website Header/Navigation-bar  -->
 
-    <header>
+<header>
 
-        <div class="navbar">
+    <div class="navbar">
 
-            <!-- 1) Navlogo   -->
-            <div class="navlogo border">
-                <div class="logo"> </div>
+        <!-- 1) Navlogo   -->
+        <div class="navlogo border">
+            <div id="logo"> </div>
+        </div>
+
+
+        <!-- 2) Navlocation -->
+        <div class="navlocation border">
+            <div id="location">
+
+            <p id="ut"> Deliver to </p>
+
+            <div id="lti">
+            <i class="fa-solid fa-location-dot"></i>
+            <p id="lt"> Pakistan </p>
             </div>
-
-
-            <!-- 2) Navlocation -->
-            <div class="navlocation border">
-                <div class="location">
-
-                    <p id="ut"> Deliver to </p>
-
-                    <div id="lti">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p id="lt"> Pakistan </p>
-                    </div>
-                
-                    <!-- (ut=upper text) (llt=lower text) 
-                          (lti=lowertext inline)                             -->
-
-                </div>
+             <!-- (ut=upper text) (llt=lower text) (lti=lowertext inline)  -->
             </div>
+        </div>
+    
+          <!-- 3) NavSearch Styling  -->
+        
+        <div class="navsearch">
 
+     <select id="selecttag" >
+        <option value="artsCraft">Arts and Craft</option>
+        <option value="automotive">Automotive</option>
+        <option value="babyPersonalCare">Baby and Personal Care</option>
+        <option value="books">Books</option>
+        <option value="boysFashion">Boys Fashion</option>
+        <option value="computers">Computers</option>
+        <option value="deals">Deals</option>
+        <option value="digitalMusic">Digital Music</option>
+        <option value="electronics">Electronics</option>
+        <option value="girlsFashion">Girls Fashion</option>>
+     </select>
+
+     <input id="inputtag" placeholder="  Search Amazon">
+     <button id="buttontag"> <i class="fa-solid fa-magnifying-glass"></i> </button>
 
         </div>
 
 
-    </header>
+    </div>
+
+
+ </header>
 
 
 
