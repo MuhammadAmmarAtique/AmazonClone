@@ -87,6 +87,11 @@ display: flex;
 
 /* 3) NavSearch Styling */
 
+.navsearch:hover
+{
+    border:2px solid #febd68;
+}
+
 .navsearch
 {   
     display: flex;
@@ -225,4 +230,87 @@ font-size: 25px;
     margin-top: 10px;
     font-weight:600;
 
+}
+
+  
+  /*  Website's 2nd bar Styling  */
+
+.secondbar
+{
+display: flex;    
+height: 40px;
+background-color: #1d2020;
+color: white;
+}
+
+/* 1)menu Styling  */
+.menu
+{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu p
+{
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.menu i
+{
+    font-size: 14px;
+}
+
+.menu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* 2)div containing 5 anchor tags styling */
+
+.fiveanchors
+{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;   
+}
+
+.fiveanchors a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+     padding: 10px;  /*Used padding instead of setting height to 40px*/
+}
+
+#td
+{
+    width: 103px;
+}
+
+#cs
+{
+    width: 139px;
+}
+
+#r
+{
+    width: 97px;
+}
+
+#gc
+{
+    width: 90px;
+}
+
+#s
+{
+    width: 42px;
 }
