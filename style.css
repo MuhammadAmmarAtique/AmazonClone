@@ -9,7 +9,7 @@
 
 }
 
-/* Navbar Styling */
+/* a) Websites's Navbar Styling */
 
 
 .navbar
@@ -289,7 +289,7 @@ color: white;
     text-decoration: none;
     font-size: 14px;
     display: inline-block;
-     padding: 10px;  /*Used padding instead of setting height to 40px*/
+    padding: 10px;  /*Used padding instead of setting height to 40px*/
 }
 
 #td
@@ -304,7 +304,7 @@ color: white;
 
 #r
 {
-    width: 97px;
+    width: 80px;
 }
 
 #gc
@@ -331,4 +331,16 @@ color: white;
 {
     text-decoration: none;
     color: white;
+    font-weight:600;
+
 }
+
+/* b) Website's Hero section styling */
+
+.herosection
+{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
