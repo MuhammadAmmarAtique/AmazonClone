@@ -388,6 +388,65 @@ color: white;
     margin-bottom: 16px;
 }
 
+/* box 4 styling */
+
+.box4
+{
+    /* background-color: white; */
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    /* padding: 20px 0px 15px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.upperbox4
+{
+    /* border: 2px solid black; */
+    height: 130px;
+    margin-bottom: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.upperbox4 pre
+{
+  color: #0f1111;
+  font-size: 21px;
+  font-weight: 600;
+  /* text-align: center; */
+  margin-top: 10px;
+  margin-right: 90px;
+}
+
+.upperbox4 button
+{
+    width: 270px;
+    height: 29px;
+    background-color:#ffd814;
+    border-radius: 7px;
+    border: none;
+    padding: 0px 10px 0px 11px;
+}
+
+.lowerbox4
+{
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 95%;
+    margin-left: 6px;
+    background-image: url(Projectimages/newbox4.jpg);
+    background-size: cover;
+}
+
+
+
 /* box 8 styling */
 .box8-images
 {
