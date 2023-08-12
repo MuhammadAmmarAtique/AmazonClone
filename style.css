@@ -388,6 +388,63 @@ color: white;
     margin-bottom: 16px;
 }
 
+/* box 8 styling */
+.box8-images
+{
+    height: 300px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.b8imgs
+{
+    width: 140px;
+    height: 120px;
+    /* border: 2px solid black; */
+}
+
+#img1p , #img3p
+{
+    margin-bottom: 30px;
+    color: #0f1111;
+    font-size: 12px;
+}
+
+#img2p , #img4p
+{
+    color: #0f1111;
+    font-size: 12px;
+}
+
+
+.img1
+{
+    margin-right: 10px;
+    background-image: url(jeans_box8.jpg);
+    background-size: cover;
+}
+
+.img2
+{
+    background-image: url(tops_box8.jpg);
+    background-size: cover;
+}
+
+.img3
+{
+    background-image: url(dresses_box8.jpg);
+    background-size: cover;
+}
+
+.img4
+{
+    background-image: url(shoes_box8.jpg);
+    background-size: cover;
+}
+
+
 /* c) Websites's Footer styling */
 
 /* 1) footerpanel1 */
