@@ -385,3 +385,48 @@ color: white;
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+/* Websites's Footer styling */
+
+/* footerpanel1 */
+.footerpanel1
+{
+    background-color: #232f3e;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* footerpanel2 */
+.footerpanel2
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #292a30;
+    height: 300px;
+}
+
+.panel2
+{
+ width: 23%;
+color: white; 
+font-size: 14px;
+}
+
+.panel2headings
+{
+    font-size: 16px;
+    padding: 6px 0px 14px;
+    margin-top:20px ;
+    font-weight: bold;
+}
+
+.footerpanel2 p
+{
+    margin-bottom: 10px;
+}
