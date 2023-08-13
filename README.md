@@ -5,7 +5,6 @@ This repository contains a project that replicates the appearance and layout of 
 ## Preview
 
 ![AmazonClone Preview](Projectimages/preview.png)
-![AmazonClone Preview 2](Projectimages/Preview2.png)
 
 ## Features
 
