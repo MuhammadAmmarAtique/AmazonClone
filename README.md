@@ -24,7 +24,7 @@ This repository contains a project that replicates the appearance and layout of 
 
 1. Clone the repository using the following command:
    ```sh
-   git clone https://github.com/your-username/AmazonClone.git
+   git clone https://github.com/MuhammadAmmarAtique/AmazonClone
 
 2. Open the index.html file in your web browser to view the AmazonClone project.
 
