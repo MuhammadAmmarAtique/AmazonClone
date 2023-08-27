@@ -26,7 +26,7 @@ This repository contains a project that replicates the appearance and layout of 
    ```sh
    git clone https://github.com/your-username/AmazonClone.git
 
-Open the index.html file in your web browser to view the AmazonClone project.
+2. Open the index.html file in your web browser to view the AmazonClone project.
 
 **Dependencies:**
 The project uses the following external resources:
