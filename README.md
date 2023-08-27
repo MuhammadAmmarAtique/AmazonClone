@@ -2,7 +2,7 @@
 
 This repository contains a project that replicates the appearance and layout of Amazon's website using only HTML and CSS. It's a static clone that emulates key components of the Amazon website, such as the navigation bar, hero section, shop section, and footer.
 
-**Check out the live project: [AmazonClone GitHub Pages](https://muhammadammaratique.github.io/AmazonClone/)**
+**Check out the live project: [AmazonClone on GitHub Pages](https://muhammadammaratique.github.io/AmazonClone/)**
 
 ## Preview
 
