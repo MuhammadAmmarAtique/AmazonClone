@@ -40,7 +40,3 @@ This project is licensed under the MIT License.
 **Disclaimer:** This project is intended for educational purposes only and is not affiliated with Amazon in any way.
 
 **Feel free to customize and improve upon the project to further develop your HTML and CSS skills!**
-
-
-**Remember to replace the placeholder URLs with the actual URLs of the resources you used in your project.**
-
